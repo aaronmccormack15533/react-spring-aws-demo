@@ -1,4 +1,4 @@
-package com.example.reactawsdemo.DataStore;
+package com.example.reactawsdemo.datastore;
 
 import com.example.reactawsdemo.profile.UserProfile;
 import org.springframework.stereotype.Repository;

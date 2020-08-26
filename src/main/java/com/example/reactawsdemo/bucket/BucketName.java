@@ -1,4 +1,4 @@
-package com.example.reactawsdemo.Bucket;
+package com.example.reactawsdemo.bucket;
 
 public enum BucketName {
 	PROFILE_IMAGE("react-spring-demo");

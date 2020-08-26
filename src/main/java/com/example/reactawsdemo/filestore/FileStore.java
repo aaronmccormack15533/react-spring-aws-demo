@@ -1,9 +1,9 @@
-package com.example.reactawsdemo.FileStore;
+package com.example.reactawsdemo.filestore;
 
 import com.amazonaws.AmazonServiceException;
-import com.amazonaws.SdkClientException;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.ObjectMetadata;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.InputStream;
@@ -15,7 +15,7 @@ public class FileStore {
 
 	private final AmazonS3 s3;
 
-
+	@Autowired
 	public FileStore(AmazonS3 s3) {
 		this.s3 = s3;
 	}
